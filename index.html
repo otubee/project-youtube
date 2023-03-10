@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=".public/output.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>Tailwind Youtube</title>
+</head>
+<body>
+   <!--Heading logo-->
+   <div class="flex justify-between items-center">
+    <div class="flex items-center w-96">
+    <a href="#" class="pl-8">
+        <img class="w-8 mr-5" src="/icons/hamburger-menu.svg" alt="home icon">
+    </a>
+    <a href="#">
+        <img class="w-24" src="/icons/youtube-logo.svg" alt="youtube logo">
+    </a>
+    </div>
+
+    <div class="flex items-center flex-1 max-w-md">
+        <a href="#" class="border-2 border-blue-500 flex flex-1 w-0">
+            <input class="h-10 px-4" type="text" placeholder="Search">
+        </a>
+        
+            <button class="bg-gray-200 px-7 py-3 mr-3 shrink-0">
+                <img class="w-5" src="/icons/search.svg" alt="search icon">
+            </button>
+            
+            <button class="bg-gray-200 rounded-full px-3 py-3 shrink-0">
+                <img class="w-6" src="/icons/voice-search-icon.svg" alt="voice icon">
+            </button>
+        </div>
+        
+
+    
+        <div class="flex justify-between w-48 mr-6 shrink-0">
+            <img class="w-7" src="/icons/upload.svg" alt="create">
+        
+    
+            <img class="w-8" src="/icons/youtube-apps.svg" alt="youtube apps">
+    
+        <div class="flex relative justify-end">
+            <img class="w-7" src="/icons/notifications.svg" alt="notifications">
+            <div class="bg-red-700 rounded-full mt-1 flex absolute">
+                <span class="text-xs font-bold text-white w-4 h-4 text-center">3</span>
+            </div>
+        </div>
+            
+        <a href="#">
+            <img class="w-9" src="/channel-pictures/my-channel.jpeg" alt="top picture">
+        </a>
+        </div>
+    </div> 
+
+        <!--Side Icons-->
+
+        <div class="flex-col  w-24 bg-gray-200 mt-10 fixed">
+            <div class="flex flex-col justify-center items-center bg-gray-300 h-20 mb-1">
+                <img class="w-6 pb-1" src="/side icons/home.svg" alt="Home"/>
+                <p class="text-xs font-semibold">Home</p>
+            </div>
+            <div class="flex flex-col justify-center items-center bg-gray-300 h-20 mb-1">
+                <img class="w-6 pb-1" src="/side icons/sidebar.svg" alt="Explore"/>
+                <p class="text-xs font-semibold">Explore</p>
+            </div>
+            <div class="flex flex-col justify-center items-center bg-gray-300 h-20 mb-1">
+                <img class="w-6 pb-1" src="/side icons/subscriptions.svg" alt="Subscriptions"/>
+                <p class="text-xs font-semibold">Subcriptions</p>
+            </div>
+            <div class="flex flex-col justify-center items-center bg-gray-300 h-20 mb-1">
+                <img class="w-6 pb-1" src="/side icons/originals.svg" alt="Originals"/>
+                <p class="text-xs font-semibold">Originals</p>
+            </div>
+            <div class="flex flex-col justify-center items-center bg-gray-300 h-20 mb-1">
+                <img class="w-6 pb-1" src="/side icons/youtube-music.svg" alt="Youtube music"/>
+                <p class="text-xs font-semibold ">Youtube Music</p>
+            </div>
+            <div class="flex flex-col justify-center items-center bg-gray-300 h-20 mb-1">
+                <img class="w-6 pb-1" src="/side icons/library.svg" alt="Library"/>
+                <p class="text-xs font-semibold">Library</p>
+            </div>
+        </div>
+        
+
+        <!--videos section-->
+
+        <Div class="w-96 pl-28 mx-2">
+            <div class="relative flex">
+                <img class="w-96" src="/thumbnail/thumbnail-1.webp" alt="image"/>
+                <a href="#" class="bg-black px-1 py-1 flex absolute bottom-2 right-1 px-2 rounded-sm">
+                    <p class="text-sm text-white">14:20</p>
+                </a>
+            </div>
+           
+            <!--Profile picture and Contents-->
+            <div class="flex mt-2">
+                    <img class="w-10 h-10 rounded-full" src="/channel-pictures/channel-1.jpeg" alt="profile picture"/>
+            <a href="#" class="flex flex-col pl-3">
+                <p class=" font-medium pb-3 text-sm">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+                <p class="text-sm font-thin text-gray-700">Marques Brownlee</p>
+                <p class="text-sm font thin text-gray-700">3.4M views  · 6 months ago</p>
+            </a>
+                
+            </div>
+        </Div>
+
+</body>
+</html>
